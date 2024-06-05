@@ -552,10 +552,10 @@ exports.deleteArticle = (req, res, next) => {
           }
           if (article.Author.id == user.id) {
             //makes sure the owner is deleting the article
-            return article.remove();
+            return Article.deleteOne({ _id: articleId });
           }
           if (user.IsAdmin == true) {
-            return article.remove();
+            return Article.deleteOne({ _id: articleId });
           }
           res.status(401).json({
             message: 'Not Authorized'
