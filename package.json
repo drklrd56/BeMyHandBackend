@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon app.js"
   },
-  "author": "Muzamil Hussain",
+  "author": "Amina Fayyaz",
   "license": "ISC",
   "dependencies": {
     "axios": "^0.21.1",
@@ -22,8 +22,8 @@
     "html-pdf": "^2.2.0",
     "html-to-docx": "^1.1.32",
     "jsonwebtoken": "^8.5.1",
-    "mongodb": "^3.6.2",
-    "mongoose": "^5.10.10",
+    "mongodb": "^6.7.0",
+    "mongoose": "^8.4.1",
     "multer": "^1.4.2",
     "multiparty": "^4.2.2",
     "request": "^2.88.2"
